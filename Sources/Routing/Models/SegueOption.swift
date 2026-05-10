@@ -11,8 +11,8 @@ public enum SegueOption {
     
     var shouldAddNewNavigationView: Bool {
         switch self {
-        case .push: true
-        case .sheet, .fullScreenCover: false
+        case .push: false
+        case .sheet, .fullScreenCover: true
         }
     }
 }
